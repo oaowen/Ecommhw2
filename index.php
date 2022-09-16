@@ -1,5 +1,8 @@
 <!--_Require once--->
-    <h1>Hello, world!</h1>
+    <h1>Welcome to the store </h1>
+<?php
+include('header.php');
+?>
     <form action="handlepost.php" method="post">
 Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
