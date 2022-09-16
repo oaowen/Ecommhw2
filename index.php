@@ -1,8 +1,7 @@
 <?php
 include('header.php');
 
-include('navbarandpageformat.');
-
+?>
 <!--_Require once--->
     <h1>Welcome to the store </h1>
 
