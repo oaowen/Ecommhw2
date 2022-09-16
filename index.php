@@ -1,10 +1,13 @@
 <?php
 include('header.php');
 ?>
+<?php
+
+include('navbarandpageformat.');
+?>
 <!--_Require once--->
     <h1>Welcome to the store </h1>
 
-include('navbarandpageformat.');
     <form action="handlepost.php" method="post">
 Product Name: <input type="text" name="name"><br>
 Quantity: <input type="text" name="name"><br>
