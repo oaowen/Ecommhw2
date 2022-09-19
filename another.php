@@ -12,9 +12,9 @@ include('header.php');
 ?>
   <body>
      <?php
-   if( $_GET["name"] || $_GET["age"] ) {
+   if( $_GET["name"] || $_GET["request"] ) {
       echo "Welcome ". $_GET['name']. "<br />";
-      echo "Your request is ". $_GET['age']. " Thank you for your request.";
+      echo "Your request is ". $_GET['request']. " Thank you for your request.";
       
       exit();
    }
