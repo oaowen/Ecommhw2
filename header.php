@@ -18,7 +18,7 @@
         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         <a class="nav-link" href="handlepost.php">Response</a>
         <a class="nav-link" href="#">Pr</a>
-        <a class="nav-link disabled">Disabled</a>
+        
       </div>
     </div>
   </div>
