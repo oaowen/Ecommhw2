@@ -12,7 +12,8 @@ include('header.php');
 ?>
   <body>
     <h1>Post Response</h1>
-      Welcome <?php echo $_POST["name"]; ?><br>
+      Welcome you want <?php echo $_POST["prodname"]; ?><br>
+     at a quantity of <?php echo $_POST["quanname"]; ?><br>
 Your email address is: <?php echo $_POST["email"]; ?>
    
     <a class="btn btn-primary" href="another.php" role="button">Add Another</a>
