@@ -14,7 +14,7 @@ include('header.php');
     <h1>Your Response</h1>
       Welcome you want <?php echo $_POST["prodname"]; ?><br>
      at a quantity of <?php echo $_POST["quanname"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
+Your contact info is: <?php echo $_POST["email"]; ?>
    
     <a class="btn btn-primary" href="another.php" role="button">Any special requests?</a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
