@@ -6,8 +6,8 @@ include('header.php');
     <h1>Welcome to the store </h1>
 
     <form action="handlepost.php" method="post">
-Product Name: <input type="text" name="name"><br>
-Quantity: <input type="text" name="name"><br>
+Product Name: <input type="text" name="prodname"><br>
+Quantity: <input type="text" name="quanname"><br>
 Your contact information: <input type="text" name="email"><br>
 <input type="submit">
 </form>
