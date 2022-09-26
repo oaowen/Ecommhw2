@@ -1,0 +1,6 @@
+<? PHP
+Function MyFunction()
+{ echo “This is my function.”;
+}
+Echo MyFunction();
+?>
