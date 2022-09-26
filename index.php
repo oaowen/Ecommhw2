@@ -4,7 +4,7 @@ include('header.php');
 ?>
 <!--_Require once--->
     <h1>Welcome to the store </h1>
-<div id="mainform"; style="height:1000px";>
+<div style="height:1000px";>
     <form action="handlepost.php" method="post">
 Product Name: <input type="text" name="prodname"><br>
 Quantity: <input type="text" name="quanname"><br>
