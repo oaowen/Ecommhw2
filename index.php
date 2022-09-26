@@ -4,7 +4,7 @@ include('header.php');
 ?>
 <!--_Require once--->
     <h1>Welcome to the store </h1>
-<div style="height:1000px";>
+
     <form action="handlepost.php" method="post">
 Product Name: <input type="text" name="prodname"><br>
 Quantity: <input type="text" name="quanname"><br>
@@ -15,7 +15,7 @@ Your contact information: <input type="text" name="email"><br>
 function writeMsg() {
   echo "Do not worry about your contact information's privacy. We will protect it even if it means we lose fingers.";
 }
-</div>
+
 
 writeMsg(); 
 ?>
