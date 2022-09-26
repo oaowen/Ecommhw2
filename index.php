@@ -21,7 +21,7 @@ Your contact information: <input type="text" name="email"><br>
 <footer>
     <?php
 include('from.php');
-   MyFunction();
+  
 ?>
 </footer>
     </body>
