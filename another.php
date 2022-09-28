@@ -27,6 +27,10 @@ include('header.php');
          Request: <input type = "text" name = "request" />
          <input type = "submit" />
       </form>
-      
+ <?php
+include('footer.php');
+
+?>
    </body>
+
 </html>
